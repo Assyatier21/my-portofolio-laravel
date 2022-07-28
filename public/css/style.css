@@ -679,7 +679,7 @@ li span:hover:after {
         margin: 0 !important;
     }
     .content .right {
-        display: none;
+        display: none !important;
     }
 }
 /* Tablets */
