@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="col-md-12 pad-0-5-rem" id="left-hero">
-        <h1 class="hero-tag contact-hero fadeInLeft blue">My Work.</h1>
+        <h1 class="hero-tag contact-hero fadeInLeft" style="color: #444444">My Work.</h1>
         <p class="hero-des contact-des fadeIn delay-1s">
             Take a look at some of my projects I've done, apps or websites that
             I've made and my designs.
