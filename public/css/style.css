@@ -442,7 +442,7 @@ li span a:hover {
 }
 
 .hero-tag {
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
     text-align: left;
     font-size: 4.5em;
     font-weight: bold;
@@ -544,11 +544,6 @@ label {
     margin-top: 50px;
     width: 90%;
 }
-
-/* #left-hero {
-    padding-left: 150px;
-} */
-
 #logo {
     margin-top: 5px;
     height: 80%;
@@ -666,17 +661,21 @@ li span:hover:after {
     padding: 6px;
     width: 48.63px;
 }
-
+.line-nav {
+    display: none;
+}
 .typed-cursor {
     opacity: 0 !important;
 }
 @media only screen and (max-width: 991px) {
     .navbar-collapse {
-        display: flex;
-        justify-content: start;
+        display: grid;
     }
     .navbar-nav.mx-auto {
         margin: 0 !important;
+    }
+    .line-nav {
+        display: block;
     }
     .content .right {
         display: none !important;
@@ -733,9 +732,6 @@ li span:hover:after {
         float: none;
     }
 
-    .hero-tag {
-        margin-top: 20vh;
-    }
     .social-icons {
         margin-bottom: 10vh;
     }
@@ -840,7 +836,7 @@ li span:hover:after {
         padding: 0 2rem;
     }
     .hero-tag {
-        margin-top: 10vh !important;
+        /* margin-top: 10vh !important; */
     }
     .work-hero {
         margin: 0 !important;
@@ -854,6 +850,5 @@ li span:hover:after {
 @media only screen and (max-width: 364px) {
     .hero-tag {
         font-size: 3em;
-        margin-top: 10vh !important;
     }
 }

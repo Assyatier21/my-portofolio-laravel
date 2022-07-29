@@ -139,7 +139,7 @@
                     alt="hero" />
             </div>
             <h1 style="font-weight: 600">MY PORTOFOLIO</h1>
-            <p id="work-text" class="px-5 text-start">Personal website containing projects I've worked on before
+            <p id="work-text" class="px-5 text-start">Personal website containing projects I've worked on before.
             </p>
             <div class="px-5">
                 <div class="technologies">
@@ -147,7 +147,15 @@
                     <span class="tech-stack"> Laravel 9 </span>
                     <span class="tech-stack"> Bootstrap 5</span>
                 </div>
-
+                <div class="technologies featured">
+                    <h2 class="m-0">Featured On</h2>
+                    <span class="partners">
+                        <a href="http://assyatier-portofolio.herokuapp.com/" style="text-decoration: none"
+                            target="_blank" class="d-flex align-items-center" rel="noreferrer">
+                            <img class="mt-2" width="40" src={{ asset('assets/svg/icons8-heroku.svg') }}>
+                        </a>
+                    </span>
+                </div>
             </div>
         </div>
     </div>

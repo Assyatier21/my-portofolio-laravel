@@ -5,8 +5,8 @@
 @endsection
 
 @section('content')
-    <div class="d-flex flex-row content pad-0-5-rem">
-        <div class="col-lg-6 p-2 left">
+    <div class=" pad-0-5-rem d-flex flex-row content justify-content-center" style="height: calc(100vh - 112px);">
+        <div class="col-lg-6 p-2 left d-flex flex-column justify-content-center">
             <h1 class="hero-tag">
                 <span class="typer text-primary" id="typer"></span>
             </h1>
@@ -16,13 +16,16 @@
                 <b class="blue">Backend Development</b>. I use my skill in
                 website development to solve technological problem in businesses.
             </p>
-
-            <button class="animated bounce delay-4s learn-btn">
-                Learn More
-            </button>
-            <a href="#">
-                <button class="contact-btn">Contact Me</button>
-            </a>
+            <div class="div">
+                <a href="{{ route('user.project') }}" class="text-decoration-none">
+                    <button class="animated bounce delay-4s learn-btn">
+                        Learn More
+                    </button>
+                </a>
+                <a href="{{ route('user.contact') }}">
+                    <button class="contact-btn">Contact Me</button>
+                </a>
+            </div>
 
             <div class="social-icons">
                 @include('components.social-media')
