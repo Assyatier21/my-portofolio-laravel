@@ -14,7 +14,7 @@
                 <p class="hero-des contact-des animated fadeIn delay-1s">
                     Want to discuss a project, an idea, an opportunity? Just fill up
                     this form or write me an email
-                    <a target="_blank" href="mailto:ishandeveloper@outlook.com" rel="noreferrer">
+                    <a target="_blank" href="mailto: muhammadsholeh.dev@gmail.com" rel="noreferrer">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </p>
